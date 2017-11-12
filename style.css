@@ -1,32 +1,96 @@
+html, body, .MainContainer {
+    height: 100%;    
+    color: #31493C;    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    border-radius: 5px;
+}
 .MainContainer {
     display: flex;
     flex-direction: column;
-    border: 2px pink solid;
-    min-height: 100vh;
+    /* border: 2px pink solid; */
+    overflow: hidden;
 }
 
 nav {
-    border: 2px #31493C solid;
-    height: 50px;
+    border: 1px #31493C solid;
+    height: 100px;
+    flex: 0, 0, auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: #7A9E7E;
+}
+
+.NavLogo {
+    display: flex;
+    align-items: center;
+}
+
+.NavLogo span {
+    padding-left: 10px;
+}
+
+.NavAccount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .Content {
-    border: 2px red solid;
+    /* border: 2px red solid; */
     display: flex;
-    flex: 1;
+    overflow-y: auto;
+    background-color: #D3DCDC;
 }
 
 .Left {
-    border: 2px greenyellow solid;
-    flex-basis: 20%
+    /* border: 2px greenyellow solid; */
+    flex-basis: 20%;
+    flex-shrink: 0;
+    overflow-y: auto;    
+}
+
+.LeftContent {
+    display: flex;
+    margin: 2%;
+    justify-content: space-evenly;
 }
 
 .Center {
-    border: 2px blue solid;
+    /* border: 2px blue solid; */
     flex-grow:1;
+    overflow-y: auto;    
 }
 
 .Right {
-    border: 2px yellow solid;
-    flex-basis: 20%
+    /* border: 2px yellow solid; */
+    flex-basis: 20%;
+    flex-shrink: 0;
+    overflow-y: auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Right i {
+    padding: 16px;
+}
+
+.Post {
+    display: flex;
+    margin: 3%;
+    background-color: #F2F7F7;
+    border-radius: 5px;
+}
+
+.Post p {
+    margin: 16px;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
 }
