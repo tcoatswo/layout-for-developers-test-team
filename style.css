@@ -1,0 +1,22 @@
+.Content
+{
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+}
+.Left
+{
+    display: table-cell;
+    background-color: green; /*Optional*/
+}
+.Center
+{
+    display: table-cell;
+    background-color: blue; /*Optional*/
+}
+.Right
+{
+    display: table-cell;
+    background-color: yellow; /*Optional*/
+}
