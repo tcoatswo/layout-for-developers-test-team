@@ -5,23 +5,29 @@
     border-spacing: 10px; /*Optional*/
     font-family: FontAwesome;
 }
+nav
+{
+    font-family: FontAwesome;
+    font-size: 32px;
+    border: solid black;
+}
 .Left
 {
     display: table-cell;
-    background-color: green; /*Optional*/
+    border: solid green; /*Optional*/
     font-size: 10px;
 
 }
 .Center
 {
     display: table-cell;
-    background-color: blue; /*Optional*/
+    border: solid blue; /*Optional*/
     flex: flex-grow;
 }
 .Right
 {
     display: table-cell;
-    background-color: yellow; /*Optional*/
+    border: solid yellow; /*Optional*/
     font-family: FontAwesome;
     font-size: 64px;
 }
