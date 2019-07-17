@@ -3,12 +3,14 @@
     display: table;
     width: 100%; /*Optional*/
     border-spacing: 10px; /*Optional*/
+    font-family: FontAwesome;
 }
 .Left
 {
     display: table-cell;
     background-color: green; /*Optional*/
-    
+    font-size: 10px;
+
 }
 .Center
 {
@@ -20,4 +22,6 @@
 {
     display: table-cell;
     background-color: yellow; /*Optional*/
+    font-family: FontAwesome;
+    font-size: 64px;
 }
