@@ -2,14 +2,13 @@
 {
     display: table;
     width: 100%; /*Optional*/
-   
     border-spacing: 10px; /*Optional*/
-    justify-content: space-between;
 }
 .Left
 {
     display: table-cell;
     background-color: green; /*Optional*/
+    
 }
 .Center
 {
